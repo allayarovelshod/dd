@@ -19,6 +19,7 @@ def echo_all(message):
     # else:
     #     javob = to_latin(msg)
     #bot.reply_to(message, javob)
+    # print("Elshod")
     bot.reply_to(message, javob(msg))
 
 bot.polling()
